@@ -12,5 +12,5 @@
 
 ### Διάγραμμα περιπτώσεων χρήσης
 <picture>
-  <img src="https://raw.githubusercontent.com/iee-ihu-gr-coursem102/Group3_2022xeimerino/main/Vaseis%20App/Mockups/Home.png">
+  <img src="https://raw.githubusercontent.com/iee-ihu-gr-coursem102/Group3_2022xeimerino/main/Vaseis%20App/Use%20case%20diagram.jpg">
 </picture>
