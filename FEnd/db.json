@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "name": "Peter",
+      "email": "geo@mail.com",
+      "password": "11111",
+      "id": 1
+    },
+    {
+      "name": "Ira",
+      "email": "geo@mail.com",
+      "password": "11111",
+      "id": 2
+    },
+    {
+      "email": "aa",
+      "password": "111",
+      "name": "aa",
+      "id": 3
+    },
+    {
+      "email": "fff",
+      "password": "222",
+      "name": "aa",
+      "id": 4
+    },
+    {
+      "email": "ddd",
+      "password": "333",
+      "name": "ddd",
+      "id": 5
+    },
+    {
+      "email": "ff",
+      "password": "ff",
+      "name": "ff",
+      "id": 6
+    },
+    {
+      "email": "geo@mail.com",
+      "password": "11111",
+      "name": "George",
+      "id": 7
+    },
+    {
+      "email": "geosid@gmail.com",
+      "password": "fffff",
+      "name": "Nick",
+      "id": 8
+    },
+    {
+      "email": "ww",
+      "password": "ddd",
+      "name": "ww",
+      "id": 9
+    }
+  ]
+}
