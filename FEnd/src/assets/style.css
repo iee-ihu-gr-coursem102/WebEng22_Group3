@@ -3,30 +3,63 @@
     font-family: sans-serif;
 }
 
+.content-table-container{
+    margin-right: 10%;
+    margin-left: 10%;
+    max-height: 600px;
+    
+    overflow-y: scroll;
+    
+}
 .content-table {
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9em;
-    min-width: 400px;
+    width: 100%;
+    max-height: 30%;
     border-radius: 5px 5px 0 0;
-    overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    table-layout: fixed;
+    padding-left: 5%;
 }
 
 .content-table thead tr {
     background-color: #009879;
     color: #ffffff;
-    text-align: left;
+    text-align: center;
     font-weight: bold;
+    position: sticky;
+    top: 0px;
 }
 
-.content-table th,
+.content-table caption{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #f3f3f3;
+    position: sticky;
+    top: 0px;
+}
+.content-table th{
+    padding: 12px 15px;
+    
+   
+}
 .content-table td {
     padding: 12px 15px;
+    
+    
 }
+
+.content-table td img {
+    width: 10%;
+    height: 10%;
+  }
 
 .content-table tbody tr {
     border-bottom: 1px solid #dddddd;
+
+    
 }
 
 .content-table tbody tr:nth-of-type(even) {
@@ -40,4 +73,59 @@
 .content-table tbody tr.active-row {
     font-weight: bold;
     color: #009879;
+}
+
+.register input,
+.login input{
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+    display: block;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid skyblue;
+}
+
+.register button,
+.login button{
+    width: 320px;
+    height: 40px;
+    border: 1px solid skyblue;
+    background: darkcyan;
+    color: #fff;
+    cursor: pointer;
+}
+
+.logout{
+    background-color: yellow;
+}
+
+hr.rounded {
+    border-top: 2px solid #009879;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+hr.linefull{
+    border-top: 2px solid #009879;
+    border-radius: 5px;
+}
+
+  .front-box {
+    background-color: white;
+    width: auto;
+    height: 300px;
+}
+
+.box{
+    width: auto;
+    height: 50px;
+}
+
+.footer-box {
+    background-color: #009879;
+    width: auto;
+    height: 100px;
 }
