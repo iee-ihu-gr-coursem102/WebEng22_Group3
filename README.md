@@ -15,3 +15,6 @@
   <img src="https://raw.githubusercontent.com/iee-ihu-gr-coursem102/Group3_2022xeimerino/main/Vaseis%20App/Use%20case%20diagram.jpg">
 </picture>
 <br>
+
+### Λειτουργικές Απαιτήσεις
+https://docs.google.com/spreadsheets/d/1trqRTDBdgKViLI11grWObEyfbYl78S-l7U9NyQ3gLHc/edit#gid=0
