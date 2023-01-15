@@ -20,3 +20,6 @@
 https://docs.google.com/spreadsheets/d/1trqRTDBdgKViLI11grWObEyfbYl78S-l7U9NyQ3gLHc/edit#gid=0
 
 ### [Meetings](https://github.com/iee-ihu-gr-coursem102/Group3_2022xeimerino/wiki/Meetings)
+
+### Executive Summary
+https://docs.google.com/document/d/1shMjRE5M3TuEBhWQ0muA-qZR6oiasywRCZjEjYZV_aE/edit
