@@ -65,8 +65,29 @@ ALTER TABLE `users`
 --
 ALTER TABLE `users`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+CREATE TABLE `favorites` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) DEFAULT NULL,
+  `uni_id` int(11) DEFAULT NULL,
+  `createdAt` datetime NOT NULL,
+  `updatedAt` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+ALTER TABLE `favorites`
+  ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `favorites`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  
+INSERT INTO `favorites` (`id`, `user_id`, `uni_id`,`createdAt`, `updatedAt`) VALUES
+(1, 1111, 2222, '2022-10-26 04:41:29', '2022-10-26 07:18:50'),
+COMMIT;
+
+
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+

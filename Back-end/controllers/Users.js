@@ -76,7 +76,12 @@ export const Register = async (req, res) => {
     const createdEmail = createdUser[0].email;
     const createdRoles = createdUser[0].roles;
     const accessToken = jwt.sign(
-      { createdUserId, createdName, createdEmail, createdRoles },
+      {
+        id: createdUserId,
+        name: createdName,
+        email: createdEmail,
+        roles: createdRoles,
+      },
       process.env.ACCESS_TOKEN_SECRET,
       {
         expiresIn: '1d',
