@@ -1,13 +1,16 @@
 <template>
   <nav v-if="loggedIn">
     <router-link to="/home">Αρχική</router-link> |
+    <router-link to="/info">Πληροφορίες</router-link> |
     <router-link to="/statistics">Στατιστικά</router-link> |
     <router-link to="/about">Αναζήτηση</router-link> | 
     <router-link to="/qualify">Που περνάω</router-link> |
+    <router-link to="/favorites">Αγαπημένα</router-link> |
     <a v-on:click="logout" :style="{ color: 'white', fontSize: '12px'}"> Logout </a>
   </nav>
   <nav v-else>
     <router-link to="/home">Αρχική</router-link> | 
+    <router-link to="/info">Πληροφορίες</router-link> |
     <router-link to="/statistics">Στατιστικά</router-link> |
     <router-link to="/login" :style="{ color: 'white', fontSize: '12px'}">Login</router-link> -
     <router-link to="/" :style="{ color: 'white', fontSize: '12px'}">SignUp</router-link> 
@@ -16,6 +19,7 @@
   </nav>
   <router-view/>
   <PageUp />
+  
 </template>
 
 <script>
@@ -37,8 +41,9 @@ export default {
   methods:{
     logout(){
       localStorage.clear();
-      location.reload()
-      this.$router.push({name:'home'})
+      this.$router.go('/home')
+      //this.$router.push({name:'home'})
+      location.reload();
     },
     login2() {
       this.isLoggedIn = true;
@@ -55,6 +60,17 @@ export default {
       return this.isLoggedIn;
     },
   },
+  mounted(){
+        let user= localStorage.getItem('User-Info');
+        if(!user)
+        {
+            this.$router.push({name:"home"}) 
+        }
+        // if(user)
+        // {
+        //   this.isLoggedIn = true;
+        // }
+    }
   
 }
 </script>
