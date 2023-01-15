@@ -5,6 +5,8 @@ import SearchView from '../components/views/SearchView.vue'
 import StatisticsView from '../components/views/StatisticsView.vue'
 import LogIn from '../components/LogIn'
 import QuaLify from '../components/views/QuaLify.vue'
+import InfoView from '../components/views/InfoView.vue'
+import FavoritesView from '../components/views/FavoritesView.vue'
 
 const routes = [
   {
@@ -40,6 +42,17 @@ const routes = [
     path: '/qualify',
     name: 'qualify',
     component: QuaLify
+  },
+  {
+    path: '/info',
+    name: 'info',
+    component: InfoView
+  }
+  ,
+  {
+    path: '/favorites',
+    name: 'favorites',
+    component: FavoritesView
   }
 ]
 
