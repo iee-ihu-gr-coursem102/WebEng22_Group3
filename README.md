@@ -21,9 +21,6 @@ URL: http://18.184.43.109/home
 
 ### [Meetings](https://github.com/iee-ihu-gr-coursem102/Group3_2022xeimerino/wiki/Meetings)
 
-### Executive Summary
-https://docs.google.com/document/d/1shMjRE5M3TuEBhWQ0muA-qZR6oiasywRCZjEjYZV_aE/edit
+### [Executive Summary](https://docs.google.com/document/d/1shMjRE5M3TuEBhWQ0muA-qZR6oiasywRCZjEjYZV_aE/edit)
 
-
-### Αξιολόγηση εφαρμογής
-https://docs.google.com/spreadsheets/d/1kPAMOAqp_c9JG2aGh0HFxryEq2FjLp_9_0Ob37qTBWc/edit?resourcekey#gid=816921216
+### [Αξιολόγηση εφαρμογής](https://docs.google.com/spreadsheets/d/1kPAMOAqp_c9JG2aGh0HFxryEq2FjLp_9_0Ob37qTBWc/edit?resourcekey#gid=816921216)
