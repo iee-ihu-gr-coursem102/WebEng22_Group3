@@ -17,8 +17,7 @@ URL: http://18.184.43.109/home
 </picture>
 <br>
 
-### Λειτουργικές Απαιτήσεις
-https://docs.google.com/spreadsheets/d/1trqRTDBdgKViLI11grWObEyfbYl78S-l7U9NyQ3gLHc/edit#gid=0
+### [Λειτουργικές Απαιτήσεις](https://docs.google.com/spreadsheets/d/1trqRTDBdgKViLI11grWObEyfbYl78S-l7U9NyQ3gLHc/edit#gid=0)
 
 ### [Meetings](https://github.com/iee-ihu-gr-coursem102/Group3_2022xeimerino/wiki/Meetings)
 
