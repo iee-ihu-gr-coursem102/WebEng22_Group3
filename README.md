@@ -23,3 +23,7 @@ https://docs.google.com/spreadsheets/d/1trqRTDBdgKViLI11grWObEyfbYl78S-l7U9NyQ3g
 
 ### Executive Summary
 https://docs.google.com/document/d/1shMjRE5M3TuEBhWQ0muA-qZR6oiasywRCZjEjYZV_aE/edit
+
+
+### Αξιολόγηση εφαρμογής
+https://docs.google.com/spreadsheets/d/1kPAMOAqp_c9JG2aGh0HFxryEq2FjLp_9_0Ob37qTBWc/edit?resourcekey#gid=816921216
